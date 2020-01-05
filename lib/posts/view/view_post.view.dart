@@ -44,9 +44,7 @@ class _ViewPostState extends State<ViewPost> {
     super.initState();
   }
 
-
-
- // To scroll bottom of list
+  // To scroll bottom of list
   _scrollToBottom() {
     _scrollController.animateTo(_scrollController.position.maxScrollExtent,
         duration: Duration(milliseconds: 300), curve: Curves.easeOut);
@@ -144,8 +142,21 @@ class _ViewPostState extends State<ViewPost> {
       ),
     );
   }
+
 // Provides UI for each comment
   Widget getCommentItem(Comment comment) {
+    print(comment.likes);
+    bool isCommentLiked;
+    if (userID != null) {
+      isCommentLiked = comment.likes.indexOf(userID) >= 0;
+      print("comment " );
+      
+    } else {
+      isCommentLiked = false;
+    }
+
+    print(isCommentLiked);
+
     return Card(
       elevation: 5,
       child: ExpansionTile(
@@ -183,6 +194,26 @@ class _ViewPostState extends State<ViewPost> {
                       style: TextStyle(
                           fontWeight: FontWeight.w400, color: Colors.black),
                     ),
+                     IconButton(
+              icon: Icon(
+                Icons.thumb_up,
+                size: 15,
+                color:  (isCommentLiked) ? Colors.greenAccent : Colors.grey ,
+              ),
+              onPressed: () {
+                setState(() {
+                  print("like");
+                  if (userID != null) {
+                    print("likedd");
+                    if (isCommentLiked) {
+                      comment.likes.remove(userID);
+                    }else{
+                      comment.likes.add(userID);
+                    }
+                  }
+                });
+              },
+            ),
                   ],
                 )
               ],
@@ -191,7 +222,8 @@ class _ViewPostState extends State<ViewPost> {
         ),
         trailing: Text(
           "reply",
-          style: TextStyle(fontWeight: FontWeight.normal, color: Colors.grey),
+          style:
+              TextStyle(fontWeight: FontWeight.normal, color: Colors.grey),
         ),
         children: <Widget>[
           (comment.childData.length > 0)
