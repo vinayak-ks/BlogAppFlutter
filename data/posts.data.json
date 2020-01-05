@@ -1,0 +1,158 @@
+[
+    {
+        "postID": 1,
+        "title": "Welcome to Hello World",
+        "imageURl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHN2Mp-hEWSIUMgLVdnUwaP0V5x9dvpluFd8zsq0EMhzCQfsek&s",
+        "comments": [
+            {
+                "userName": "Ramu",
+                "profileImage": "",
+                "commentedOn": "05-01-2020",
+                "comment": "It's good!!!",
+                "likes": [
+                    1,
+                    2
+                ],
+                "replies": [
+                    {
+                        "userName": "Vinayak",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThGTEk2DU_DIVyyRWXWBXZWnb_hKjZpRA9o-e0V6LCZuIMYXmY&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!"
+                    },
+                    {
+                        "userName": "Chandan",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAt1K04tVafk8yjzArxyc_37p-xCdn6GePN2L8JwIOQbsjeo47_Q&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!"
+                    },
+                    {
+                        "userName": "Niranjan",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2_XAoq1uMsC016P538PRKi7MZtlowBuUn7mKAaUQA6JRhnI5C7A&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!"
+                    }
+                ]
+            },
+            {
+                "userName": "Bamu",
+                "profileImage": "",
+                "commentedOn": "05-01-2020",
+                "comment": "It's good!!!",
+                "likes": [
+                    1,
+                    2
+                ],
+                "replies": [
+                    {
+                        "userName": "Vinayak",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThGTEk2DU_DIVyyRWXWBXZWnb_hKjZpRA9o-e0V6LCZuIMYXmY&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!"
+                    },
+                    {
+                        "userName": "Chandan",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAt1K04tVafk8yjzArxyc_37p-xCdn6GePN2L8JwIOQbsjeo47_Q&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!"
+                    },
+                    {
+                        "userName": "Niranjan",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2_XAoq1uMsC016P538PRKi7MZtlowBuUn7mKAaUQA6JRhnI5C7A&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "postID": 2,
+        "title": "Welcome to Karnataka",
+        "imageURl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFsmHdmzZQI-7FFsd_fQKohvu2oFGKfur9F_WJIpqX4OOFVtK6w&s",
+        "comments": [
+            {
+                "userName": "Shamu",
+                "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbWsS9RmCNISZWNcX0LBbwXCDBR-ROa8VgrPuE7fuigfVfkiCJ&s",
+                "commentedOn": "05-01-2020",
+                "comment": "Jai Karnataka",
+                "likes": [
+                    1,
+                    2
+                ],
+                "replies": [
+                    {
+                        "userName": "Vinayak",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThGTEk2DU_DIVyyRWXWBXZWnb_hKjZpRA9o-e0V6LCZuIMYXmY&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!",
+                        "likes": [
+                            1
+                        ]
+                    },
+                    {
+                        "userName": "Chandan",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAt1K04tVafk8yjzArxyc_37p-xCdn6GePN2L8JwIOQbsjeo47_Q&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yooo!!!",
+                        "likes": [
+                            2
+                        ]
+                    },
+                    {
+                        "userName": "Niranjan",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2_XAoq1uMsC016P538PRKi7MZtlowBuUn7mKAaUQA6JRhnI5C7A&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!",
+                        "likes": [
+                            1,
+                            2
+                        ]
+                    }
+                ]
+            },
+            {
+                "userName": "Ramu",
+                "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbWsS9RmCNISZWNcX0LBbwXCDBR-ROa8VgrPuE7fuigfVfkiCJ&s",
+                "commentedOn": "05-01-2020",
+                "comment": "It's good!!!",
+                "likes": [
+                    1,
+                    2
+                ],
+                "replies": [
+                    {
+                        "userName": "Vinayak",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThGTEk2DU_DIVyyRWXWBXZWnb_hKjZpRA9o-e0V6LCZuIMYXmY&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!",
+                        "likes": [
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "userName": "Chandan",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAt1K04tVafk8yjzArxyc_37p-xCdn6GePN2L8JwIOQbsjeo47_Q&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!",
+                        "likes": [
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "userName": "Niranjan",
+                        "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2_XAoq1uMsC016P538PRKi7MZtlowBuUn7mKAaUQA6JRhnI5C7A&s",
+                        "commentedOn": "05-01-2020",
+                        "comment": "Yess!!!",
+                        "likes": [
+                            1,
+                            2
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
