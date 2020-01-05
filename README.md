@@ -1,16 +1,38 @@
 # blog_app
 
-A new Flutter project.
+A new Flutter project which showcases the basic Blogging App.
+
+# Steps to RUN the app:
+
+  STEP 1: flutter pub get in pubspec.yaml
+  
+  # WEB
+    - flutter run -d chrome  / flutter build web
+  
+  # ANDROID 
+    - flutter run (with emulator / android device conneted)
+    - flutter build apk
+    
+  # IOS
+  - flutter build ios
+  
+ 
+    
+  
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The App reads data from local json assets:
+  - data/users.data.json
+  - data/posts.data.json
+  
+# To Login
+  email: test@test.com
+  password: 12345
+  
+  (user can be added / modified in data/users.data.json)
+  
+# POST List
+  - default posts are configured in data/posts.data.json
+  
+  
