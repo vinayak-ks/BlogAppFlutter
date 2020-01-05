@@ -8,6 +8,7 @@ import 'package:blog_app/posts/view/view_post.view.dart';
 import 'package:blog_app/shared/common_widgets.dart';
 import 'package:flutter/material.dart';
 
+// This page provides List of posts
 class PostList extends StatefulWidget {
   static String id = "list-post";
 

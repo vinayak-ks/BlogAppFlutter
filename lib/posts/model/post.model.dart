@@ -8,7 +8,7 @@ class Post {
   List<Comment> comments;
 
   Post({this.title, this.userName, this.imageURL, this.comments});
-
+//factory method to return object from json
   factory Post.fromJson(Map<dynamic, dynamic> parsedJson) {
     String titleTemp = parsedJson['title'];
     String imageUrl = parsedJson['imageURl'];

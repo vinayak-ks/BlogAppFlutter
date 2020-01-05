@@ -1,5 +1,5 @@
 import 'package:blog_app/posts/model/post.model.dart';
-
+// Business Logic : this is where backend interactions are written
 class PostBloc{
   List<Post> getPostList(List jsonList){
 

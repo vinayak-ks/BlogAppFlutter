@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+//for sharing the userDetails accross the app
 class Credential with ChangeNotifier {
   int _userId;
   String _userName;

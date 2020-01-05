@@ -6,6 +6,9 @@ import 'package:blog_app/shared/common_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+/*
+This page shows  indvidual post with comments and replies
+*/
 class ViewPost extends StatefulWidget {
   static String id = "view-post";
   final Post post;
@@ -41,12 +44,9 @@ class _ViewPostState extends State<ViewPost> {
     super.initState();
   }
 
-  _scrollToTop() {
-    _scrollController.animateTo(_scrollController.position.minScrollExtent,
-        duration: Duration(milliseconds: 1000), curve: Curves.easeIn);
-    setState(() => _isOnTop = true);
-  }
 
+
+ // To scroll bottom of list
   _scrollToBottom() {
     _scrollController.animateTo(_scrollController.position.maxScrollExtent,
         duration: Duration(milliseconds: 300), curve: Curves.easeOut);
@@ -109,6 +109,7 @@ class _ViewPostState extends State<ViewPost> {
     );
   }
 
+// To get post item
   Widget getPostItem(Post post) {
     return GestureDetector(
       onTap: () {
@@ -143,7 +144,7 @@ class _ViewPostState extends State<ViewPost> {
       ),
     );
   }
-
+// Provides UI for each comment
   Widget getCommentItem(Comment comment) {
     return Card(
       elevation: 5,
@@ -243,7 +244,8 @@ class _ViewPostState extends State<ViewPost> {
     );
   }
 
-  Padding getReplyItem(Reply replySingle) {
+// Provides template for each reply item
+  Widget getReplyItem(Reply replySingle) {
     print(replySingle.likes);
     bool _isLiked;
     if (userID != null) {

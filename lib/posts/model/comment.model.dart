@@ -13,7 +13,7 @@ class Comment {
       this.dateModified,
       this.commentString,
       this.childData});
-
+//factory method to return object from json
   factory Comment.fromJson(Map<dynamic, dynamic> parsedJson) {
     String userNameTemp = parsedJson['userName'].toString();
     String userURLTemp = parsedJson['profileImage'].toString();

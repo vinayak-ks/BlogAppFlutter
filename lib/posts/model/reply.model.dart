@@ -6,7 +6,7 @@ class Reply {
   // int likeCount;
 
   Reply({this.reply, this.userURL, this.userName , this.likes});
-
+//factory method to return object from json
   factory Reply.fromJson(Map<dynamic, dynamic> parsedJson) {
     String userNameTemp = parsedJson['userName'].toString();
     String userURLTemp = parsedJson['profileImage'].toString();
